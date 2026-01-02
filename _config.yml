@@ -1,0 +1,25 @@
+title: Evolutionary Development Process
+description: Chapter-based notes and daily blog updates.
+# Built-in GitHub Pages theme
+theme: minima
+markdown: kramdown
+
+# Navbar pages
+header_pages:
+  - chapters.md
+  - blog.md
+  - about.md
+
+# Chapters collection
+collections:
+  chapters:
+    output: true
+    permalink: /chapters/:slug/
+
+# Defaults for chapter pages
+defaults:
+  - scope:
+      path: ""
+      type: chapters
+    values:
+      layout: chapter
