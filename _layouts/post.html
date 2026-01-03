@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.date %}
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+    {% endif %}
+  </header>
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>
+
+<!-- Mermaid.js include (layout-level) -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  (function() {
+    try {
+      const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      mermaid.initialize({ startOnLoad: true, theme: isDark ? 'dark' : 'default' });
+    } catch (e) {
+      console.warn('Mermaid initialization skipped:', e);
+    }
+  })();
+</script>
+<style>
+  .mermaid { max-width: 100%; overflow: visible; }
+</style>

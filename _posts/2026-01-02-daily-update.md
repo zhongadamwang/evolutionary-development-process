@@ -1,6 +1,11 @@
 ---
-title: Daily Update: Jan 2, 2026
+title: "Start my journey of building Evolutionary Development Process"
 ---
 
-- Set up GitHub Pages-ready structure.
-- Drafted initial chapters and blog scaffolding.
+<p>Finally started my journey of building Evolutionary Development Process. Set up the GitHub Pages-ready structure and drafted initial chapters and blog scaffolding.</p>
+
+
+<div class="mermaid">
+flowchart TD
+	A[Start]
+</div>

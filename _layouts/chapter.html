@@ -26,3 +26,19 @@ layout: default
     </div>
   </nav>
 </article>
+
+<!-- Mermaid.js include (layout-level, in case custom-head is not loaded) -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  (function() {
+    try {
+      const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      mermaid.initialize({ startOnLoad: true, theme: isDark ? 'dark' : 'default' });
+    } catch (e) {
+      console.warn('Mermaid initialization skipped:', e);
+    }
+  })();
+</script>
+<style>
+  .mermaid { max-width: 100%; overflow: visible; }
+</style>

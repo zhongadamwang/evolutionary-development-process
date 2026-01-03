@@ -1,0 +1,12 @@
+<!-- Mermaid.js for rendering diagrams -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  (function() {
+    const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    mermaid.initialize({ startOnLoad: true, theme: isDark ? 'dark' : 'default' });
+  })();
+</script>
+<style>
+  /* Make mermaid diagrams responsive */
+  .mermaid { max-width: 100%; overflow: visible; }
+</style>
