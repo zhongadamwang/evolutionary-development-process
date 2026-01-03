@@ -1,1 +1,0 @@
-The methodology is based on my working experience and praticing of Model Drvien Development in my Solutions Architect career. It applied to the software development projects with in-house development team and also third-part consulting teams.

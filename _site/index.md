@@ -1,1 +1,0 @@
-Evolutionary Develop Process is a practice of Model Driven Development framework. The goal is to provide a common knowledgebase of SDLC for human being and AI for collaboration. The fundmental descriptive language is UML diagram scripts.
